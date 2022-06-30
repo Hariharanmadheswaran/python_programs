@@ -1,3 +1,7 @@
+"""
+        THE QUESTION IS TAKEN FROM LEETCODE
+"""
+
 def sum_root_to_leaf(arr,index,elements):
     if (2*index)+1>=len(arr) and (2*index)+2>=len(arr):
         elements=[str(i) for i in elements]
